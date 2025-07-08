@@ -1,0 +1,6 @@
+Créez une fonction permettant de trier une liste de chiffre par ordre DECROISSANT.
+Cette fonction prendra en paramètre une liste de nombre entier et renverra une liste de nombre entier trié par ordre décroissant.
+Elle devra renvoyer une erreur si la liste passée est vide.
+
+Le code sera commenté, en accord avec les normes PEP-8.
+La sortie sera rendue propre.

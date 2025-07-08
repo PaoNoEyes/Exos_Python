@@ -1,0 +1,1 @@
+II) Pour cet exercice, vous trouverez dans le dossier python joint un programme non commenté et vous devrez expliquer son fonctionnement ligne par ligne

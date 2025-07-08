@@ -1,0 +1,36 @@
+I) La base aérienne 721 a besoin d'un programme pour gérer sa base de donnée
+Ecrivez un programme qui permet de stocker les informations :
+
+Prénom : Erwan
+Nom : Le Moullec
+Age : 25 ans
+Sexe : Masculin
+
+Prénom : Erwan
+Nom : Guillard
+Age : 23 ans
+Sexe : Masculin
+
+Prénom : Gabin
+Nom : Le Cam
+Age : 27 ans
+Sexe : Masculin
+
+Prénom : Clement
+Nom : Fonte
+Age : 22 ans
+Sexe : Masculin
+
+Prénom : Gabrielle
+Nom : Fonte
+Age : 20 ans
+Sexe : Feminin
+
+Prénom : Yauwenn
+Nom : Treiber
+Age : 28
+Sexe : Masculin
+
+Ce programme comprendra une fonction permettant de retirer et d'ajouter d'autres élèves, de lister tous les élèves et de les trier par age ou par ordre alphabétique selon leur nom de famille.
+Le stockage des données se fera au choix en liste, dictionnaire ou un mélange des deux.
+Les affichages seront propre et votre programme respectera les normes PEP-8.
