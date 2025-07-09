@@ -1,0 +1,25 @@
+II) Pour cet exercice, vous trouverez dans le dossier python joint un programme non commenté et vous devrez expliquer son fonctionnement ligne par ligne
+
+
+a est une liste de fruits contenant des str
+result est un dictionnaire conteant fraise et ayant pour clé 6
+la variable ok est un booléen valant faux
+
+
+la fonction fonc1 prend comme variables a, et b qui vaut "fraise"
+on initioalise un for avec x dans la liste a 
+
+On fait ici a l'interieur de la boucle for un if qui va poser des conditions en vu d'un affichage ici si x est dans result 
+la variable ok vaudra faux et la liste result incrémentera de 1 
+et en resultante de cette condition si elle n'est pas validée 
+la variable ok vaudra vrai et la liste de result vaudra 1 
+pour notre affichage on fera un return de result 
+
+et on appelera la fonc1 avec comme argument a 
+
+Utilité de la fonction : 
+Parcourir la liste de fruits a ,
+Compter combien de fois chaque fruit apparaît,
+Enregistrer ce comptage dans un dictionnaire result,
+Puis afficher result a la fin 
+
