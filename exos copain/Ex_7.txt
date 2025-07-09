@@ -1,0 +1,4 @@
+Vous trouverez dans le dossier python joint un code python a déchiffrer.
+
+vous devrez expliquer ce que fait le code ligne par ligne et décrire la fonction de chaque variable.
+Bonne chance.
