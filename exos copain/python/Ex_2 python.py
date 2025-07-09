@@ -1,6 +1,6 @@
 #Ex_2 python
 #a=["fraise","pomme","poire","pomme","banane","abricot","fraise","mure","fraise","cerise","peche","pasteque","abricot","melon","cerise","framboise","fraise","pamplemousse","abricot","orange","clementine","ananas","kiwi","easteregg","pomme","ananas","pomme","poire","fraise","fraise","poire","pomme","myrtille","cassis","salade","tomate","avocat","fraise","framboise","ananas","kiwi","orange","poire","pamplemousse","clémentine","pomme","poire","clémentine","ananas","clémentine","pomme","poire","pomme","fraise"]
-
+a = []
 
 result={"fraise":6}
 ok = False
