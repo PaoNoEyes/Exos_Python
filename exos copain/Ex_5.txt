@@ -1,0 +1,4 @@
+Dans cet exercice on va manipuler les fichiers extérieurs, on l'a pas vu en classe mais c'est très utile.
+
+Un bout du programme existe déja, mais je veux ajouter une fonction qui permettrait de lire le contenu du fichier et de trouver le joueur qui a eu le plus grand score
+
