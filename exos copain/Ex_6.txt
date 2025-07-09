@@ -1,0 +1,11 @@
+Creez des fonctions de recherche en liste :
+- maximum et minimum
+- nombre d'occurence d'un élement
+- recherche d'une sous chaine de caractère dans une liste de chaine (ex : cherchez tout les mots qui contiennent "pipa")
+
+
+les fonctions devront prendre en parametre la liste suivante :
+
+Température  = [15,12,3,-17,-8,15.17,27,32,12,12,17,-22,-0,14,0,7,5,2,3,0.0,0,0,0.7,7]
+
+- recherche d'un maximum par dichotomie dans une liste (pensez a la ranger avant)
