@@ -37,25 +37,29 @@ def trier_par_alphabet(liste):
         print(i["prenom"], i["nom"], i["age"], i["sexe"])
 
 
-while choix in [1,2,3,4,5]:
+while choix in [1,2,3,4,5,6]:
     choix=int(input("Bienvenue dans la base de donnée des élèves de la BA721, veuillez choisir votre programme :\n "
-                "1: ajouter un élève \n 2: afficher la liste des élèves \n "
-                "3: trier les élève par ordre croissant d'age\n 4: trier les élèves par ordre alphabétique du nom \n "
-                "5: quitter  "))
+                "1: ajouter un élève \n 2: Supprimer un élève \n 3: afficher la liste des élèves \n "
+                "4: trier les élève par ordre croissant d'age\n 5: trier les élèves par ordre alphabétique du nom \n "
+                "6: quitter  "))
     if choix==1:
         ajouter_un_eleve(ba721)
         print("bien ajouté")
         input()
     elif choix==2:
-        afficher_les_eleves(ba721)
+        supprimer_un_eleve(ba721)
+        print("suppression effectuée")
         input()
     elif choix==3:
-        croissant_par_age(ba721)
+        afficher_les_eleves(ba721)
         input()
     elif choix==4:
-        trier_par_alphabet(ba721)
+        croissant_par_age(ba721)
         input()
     elif choix==5:
+        trier_par_alphabet(ba721)
+        input()
+    elif choix==6:
         print("bye bye")
         choix=10
     else:
