@@ -1,0 +1,4 @@
+Un exercice python du même nom vous donne un exemple de programation "orientée objet".
+on a crée une classe d'objet élève
+
+A vous de creer une classe d'objet livre, qui devra contenir titre auteur et nombre de page avec une methode (fonction) d'affichage et une méthode de création.
