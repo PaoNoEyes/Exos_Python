@@ -1,0 +1,20 @@
+Ecrivez une fonction qui permet d'afficher des données en entrée sous la forme d'un tableau.
+
+Exemple :
+[["juillet", 30, 32, 31, 35, 26],["aout", 33, 31, 35, 38, 39],["septembre", 29, 28, 25, 27, 22],["octobre", 27, 25, 26, 24, 23],["novembre", 22, 24, 23, 20, 19],["decembre", 19, 18, 20, 17, 18]]
+
+doit renvoyer :
+juillet     aout    septembre   octobre     novembre    decembre
+30          33      29          27          22          19
+32          31      28          25          24          18
+etc,etc...
+
+vous ferez ensuite :
+une fonction qui permet de trier le tableau
+une fonction qui permet d'afficher le maximum et le minimum de chaque mois
+une fonction qui permet d'afficher toute les temperatures d'un mois
+une fonction qui permet d'ajouter ou supprimer un mois de temperatures
+une fonction qui fait la moyenne des temperatures sur un mois
+une fonction qui permet de selectionner tout les mois durant lesquels une certaine temperature a été atteinte ou depassé
+    -> on doit pouvoir selectionner tout les mois ou la temperatures est descendu en dessous d'une temperature donné 
+    -> ou tout les mois ou la temperatures a grimpé au dessus d'une temperature donné
