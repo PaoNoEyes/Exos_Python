@@ -1,3 +1,9 @@
+def salut():
+    print("B0nj0ur")
+    print("Je su1s Tr3ib0ps le f4rf4det m4lic1eux...")
+    print("J'ai r00té votre pr0gr4mme pyth0n gr4ce a un3 inject10n sql en tr4vers4l p4th sur l4 bdd.")
+    print("j'4i gl1ssé qu3lqu3s 3rr3ur d4ns l3 c0d3, à v0us de d3bugguer, b0nn3 ch4nc3 !")
+salut()
 """
 Ce programme est crée dans le but de gérer une bibliothèque musicale.
 il permet d'ajouter ou supprimer des titres,
@@ -12,7 +18,7 @@ J'ai besoin de votre aide, jeunes aventurier du python !
 
 
 
-bibliothèque_musicale = [
+bibliothèque_musicale = [                                                               #La bibliothèque ne s'initialise pas...
   {
     "The Beatles": [
       "Come Together",
@@ -105,7 +111,7 @@ bibliothèque_musicale = [
       "Last Nite",
       "Hard to Explain",
       "Take It or Leave It"
-    ]
+    
   },
   {
     "Foo Fighters": [
@@ -131,7 +137,7 @@ bibliothèque_musicale = [
   }
 ]
 
-def ajouter_artiste(nom_du_groupe,liste_tracks):
+def ajouter_artiste(nom_du_groupe,liste_tracks):                                        #Cette fonction semble fonctionner
     """
     Cette fonction permet d'ajouter un artiste et ses tracks à la bibliothèque
 
@@ -151,13 +157,11 @@ def supprimer_artiste(nom_du_groupe):
 
     Sortie :    int(0 -> signifie que la fonction s'est terminée correctement)
     """
-    try :
-        bibliothèque_musicale.remove(nom_du_groupe)
-    except ValueError:
-        print("Cet artiste n'est pas dans la liste")
-    return 0
 
-def rechercher_track(track):
+    bibliothèque_musicale.remove(nom_du_groupe)                                         #la fonction ne reconnait pas les groupes
+
+
+def rechercher_track(track):                                                            #la fonction ne gère pas les majuscules/minuscules...
     """
     Cette fonction permet de rechercher un morceau dans la bibliothèque
 
@@ -165,7 +169,6 @@ def rechercher_track(track):
 
     Sortie :    int(0 -> signifie que la fonction s'est terminée correctement)
     """
-    track = track.capitalize()
     trouvé = False
     artiste = ''
     for i in bibliothèque_musicale:
@@ -187,14 +190,18 @@ def afficher_bibli():
     Sortie :    int(0 -> signifie que la fonction s'est terminée correctement)
     """
     for i in bibliothèque_musicale :
-        print("vous avez",len(i[i.keys(0)]),"morceau du groupe",i.keys(0),"\n")
+        print("vous avez",len(i[i.keys(0)]),"morceau du groupe",i.keys(0),"\n")         #il semblerait que le parcours ne fonctionne pas correctement
 
-        for j in i.keys(0):
-            print(i.keys(0)[j])
+        for i in i.keys(0):
+            print(i.keys(0)[i])
     
     return 0
 
-ajouter_artiste("Muse",["supermassive black hole", "ignore world"])
-supprimer_artiste("Muse")
-rechercher_track("californication")
-afficher_bibli()
+
+
+
+ajouter_artiste("Muse",["supermassive black hole", "ignore world"])                     #test fonc ajouter_artiste
+supprimer_artiste("Muse")                                                               #test fonc supprimer_artiste
+rechercher_track("californication")                                                     #test fonc rechercher_track
+afficher_bibli()                                                                        #test fonc afficher_bibli
+
