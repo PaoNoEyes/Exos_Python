@@ -1,5 +1,28 @@
 Créez une fonction qui prend une chaine de caractère en paramètre et renvoie si la chaine est un palindrome
 
+mots = [
+    "bonjour",
+    "radar",       # palindrome
+    "éléphant",
+    "kayak",       # palindrome
+    "voiture",
+    "civic",       # palindrome
+    "maison",
+    "rotor",       # palindrome
+    "niveau",      # palindrome
+    "table",
+    "python",
+    "deed",        # palindrome
+    "ordinateur",
+    "reviver",     # palindrome
+    "fleur",
+    "refer",       # palindrome
+    "stylo",
+    "course",
+    "stats",       # palindrome
+    "lampe"
+]
+
 
 Créez une fonction qui prend une chaine de caractère récupérée aléatoirement dans la liste donnée ci dessous, mélange les caractères et lance un jeu dans lequel l'utilisateur doit reconstituer le mot.
 La fonction devra retourner le mot a deviner ainsi que le nombre d'essai pour le retrouver
